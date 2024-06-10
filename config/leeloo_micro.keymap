@@ -218,8 +218,8 @@ nice_view_spi: &spi0 {
             display-name = " Raise";
             bindings = <
 &kp F1    &kp F2     &kp F3     &kp F4 &kp PSCRN                           &kp INS  &kp HOME   &kp PG_UP     &trans    &trans
-&kp F5   &kp F6     &kp F7     &kp F8     &kp SLCK                           &kp DEL  &kp END   &kp PG_DN   &trans  &trans
-&kp F9     &kp F10     &kp F11     &kp F12     &kp PAUSE_BREAK     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+&kp F5   &kp F6     &kp F7     &kp F8     &kp SLCK                           &kp DEL  &kp END   &kp PG_DN   &kp UP  &trans
+&kp F9     &kp F10     &kp F11     &kp F12     &kp PAUSE_BREAK     &trans     &trans     &trans     &trans     &kp LEFT     &kp DOWN     &kp RIGHT
                       &trans     &kp LGUI     &tog 3     &kp SPACE     &kp SPACE     &trans     &trans    &trans
             >;
 
@@ -229,10 +229,10 @@ nice_view_spi: &spi0 {
         adjust_win_layer {
             display-name = " Adjust";
             bindings = <
-&kp F1     &kp F2     &kp F3     &kp F4     &kp F5                           &trans     &trans     &kp VOLUP  &trans     &trans
-&kp F6     &kp F7     &kp F8     &kp F9     &kp F10                          &trans     &trans     &kp VOLDN  &trans     &trans
-&kp F11    &kp F12    &trans     &trans     &trans     &trans     &trans     &trans     &kp VOLMT  &trans     &trans     &trans
-                      &trans     &trans     &trans     &trans     &trans     &trans     &trans     &tog QX_M
+&kp TAB     &kp Q     &kp W     &kp E     &kp R                           &trans     &trans     &kp VOLUP  &trans     &trans
+&kp LCTRL     &kp A     &kp S     &kp D     &kp F                          &trans     &trans     &kp VOLDN  &trans     &trans
+&kp LSHFT    &kp Z    &kp X     &kp C     &kp V     &kp G     &trans     &trans     &trans  &trans     &trans     &trans
+                      &kp ESC     &kp LALT     &kp B     &kp SPACE     &trans     &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
