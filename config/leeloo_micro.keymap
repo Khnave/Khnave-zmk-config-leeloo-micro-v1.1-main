@@ -196,7 +196,7 @@ nice_view_spi: &spi0 {
 &kp Q     &kp W      &kp E      &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O      &kp P
 &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI
 &mt LSHFT Z &kp X      &kp C      &kp V      &kp B     &kp LCTRL    &kp RET   &kp N      &kp M      &kp COMMA  &kp DOT    &mt RSHFT FSLH
-                  &lt 2 ESC   &kp LALT  &lt 1 TAB  &kp SPACE    &kp SPACE  &kp BSPC  &kp EQUAL   &kp LGUI
+                  &mo 2   &kp LALT  &mo 1  &kp SPACE    &kp SPACE  &kp BSPC  &kp EQUAL   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
@@ -205,10 +205,10 @@ nice_view_spi: &spi0 {
         lower_win_layer {
             display-name = " Lower";
             bindings = <
-&mt N1 P     &mt N2 O     &mt N3 I     &mt N4 U     &mt N5 Y                           &mt N6 N1     &mt N7 N2     &mt N8 N3     &mt N9 N4     &mt N0 N5
-&kp SEMI   &kp L   &kp K   &kp J   &kp H                           &kp HOME     &kp END     &kp BSLH     &kp MINUS     &mt SQT UP
-&mt LSFT FSLH  &kp DOT     &kp COMMA     &kp M     &kp N     &kp GRAVE     &kp RET     &kp N1   &kp N2   &mt N3 LEFT     &mt C_MUTE DOWN     &mt RSHFT RIGHT
-                      &kp LGUI     &kp LALT     &kp DEL     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL     &kp RGUI
+&mt P N1     &mt O N2     &mt I N3     &mt U N4     &mt Y N5                           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
+&kp TAB   &kp L   &kp K   &kp J   &kp H                           &kp BSLH     &kp MINUS     &kp SQT     &kp UP     &kp RSHFT
+&kp LSHFT  &kp DOT     &kp COMMA     &kp M     &kp N     &kp ESC     &kp CAPS     &kp LBKT   &kp RBKT   &kp LEFT     &kp DOWN     &kp RIGHT
+                      &tog 3     &kp GRAVE     &trans     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL     &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
@@ -217,10 +217,10 @@ nice_view_spi: &spi0 {
         raise_win_layer {
             display-name = " Raise";
             bindings = <
-&kp F1    &kp F2     &kp F3     &kp F4 &kp F15                           &kp N7  &kp N8   &kp N9     &kp F13    &kp F14
-&kp F5   &kp F6     &kp F7     &kp F8     &kp F16                           &kp N4  &kp N5   &kp N6   &kp C_MUTE  &kp UP
-&kp F9     &kp F10     &kp F11     &kp F12     &kp F17     &kp LBKT     &kp RBKT     &kp N1     &kp N2     &mt N3 LEFT     &kp DOWN     &mt RSHFT RIGHT
-                      &trans     &kp LALT     &kp LSHFT     &kp SPACE     &kp SPACE     &kp N0     &kp DOT    &kp RET
+&kp F1    &kp F2     &kp F3     &kp F4 &kp PSCRN                           &kp INS  &kp HOME   &kp PG_UP     &trans    &trans
+&kp F5   &kp F6     &kp F7     &kp F8     &kp SLCK                           &kp DEL  &kp END   &kp PG_DN   &trans  &trans
+&kp F9     &kp F10     &kp F11     &kp F12     &kp PAUSE_BREAK     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+                      &trans     &kp LGUI     &tog 3     &kp SPACE     &kp SPACE     &trans     &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
