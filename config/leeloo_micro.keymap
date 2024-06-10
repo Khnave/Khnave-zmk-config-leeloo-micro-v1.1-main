@@ -217,9 +217,9 @@ nice_view_spi: &spi0 {
         raise_win_layer {
             display-name = " Raise";
             bindings = <
-&kp F1    &kp F2     &kp F3     &kp F4 &trans                           &kp PG_UP  &kp HOME   &kp UP     &kp END    &kp BSLH
-&kp F5   &kp F6     &kp F7     &kp F8     &trans                           &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp GRAVE
-&kp F9     &kp F10     &kp F11     &kp F12     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &mt RSFT TILDE
+&kp F1    &kp F2     &kp F3     &kp F4 &trans                           &kp INS  &kp HOME   &kp PG_UP     &kp F13    &kp F14
+&kp F5   &kp F6     &kp F7     &kp F8     &trans                           &kp DEL  &kp END   &kp PG_DN   &kp C_MUTE  &kp UP
+&kp F9     &kp F10     &kp F11     &kp F12     &trans     &kp LBKT     &kp RBKT     &kp F15     &kp F16     &kp LEFT     &kp DOWN     &mt RSHFT RIGHT
                       &trans     &trans     &trans     &trans     &trans     &trans     &kp DEL    &trans
             >;
 
