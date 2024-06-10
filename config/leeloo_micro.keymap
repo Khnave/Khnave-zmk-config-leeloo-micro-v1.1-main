@@ -219,7 +219,7 @@ nice_view_spi: &spi0 {
             bindings = <
 &kp F1    &kp F2     &kp F3     &kp F4 &kp HOME                           &kp INS  &kp HOME   &kp PG_UP     &kp F13    &kp F14
 &kp F5   &kp F6     &kp F7     &kp F8     &kp LBRC                           &kp DEL  &kp END   &kp PG_DN   &kp C_MUTE  &kp UP
-&kp F9     &kp F10     &kp F11     &kp F12     &kp RBRC     &kp GRAVE     &kp F15     &kp F16     &kp F17     &KP LEFT     &kp DOWN     &mt RSFT RIGHT
+&kp F9     &kp F10     &kp F11     &kp F12     &kp RBRC     &kp GRAVE     &kp F15     &kp F16     &kp F17     &KP LEFT     &kp DOWN     &mt RSHFT RIGHT
                       &trans     &trans     &trans     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL    &kp RGUI
             >;
 
