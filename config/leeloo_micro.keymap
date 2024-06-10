@@ -205,10 +205,10 @@ nice_view_spi: &spi0 {
         lower_win_layer {
             display-name = " Lower";
             bindings = <
-&mt N1 P     &mt N2 O     &mt N3 I     &mt N4 U     &mt N5 Y                           &mt N6 N7     &mt N7 N8     &mt N8 N9     &mt N9 MINUS     &mt N0 BSPC
-&kp SEMI   &kp L   &kp K   &kp J   &kp H                           &kp N4     &kp N5     &kp N6     &kp BSLH     &mt SQT UP
+&mt N1 P     &mt N2 O     &mt N3 I     &mt N4 U     &mt N5 Y                           &mt INS N7     &mt HOME N8     &mt PG_UP N9     &mt N9 MINUS     &mt N0 C_MUTE
+&kp SEMI   &kp L   &kp K   &kp J   &kp H                           &kp DEL     &kp END     &kp PG_DN     &kp BSLH     &mt SQT UP
 &mt LSFT FSLH  &kp DOT     &kp COMMA     &kp M     &kp N     &kp GRAVE     &kp RET     &kp N1   &kp N2   &mt N3 LEFT     &mt C_MUTE DOWN     &mt RSHFT RIGHT
-                      &kp LGUI     &kp LALT     &kp DEL     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL     &kp RGUI
+                      &kp LGUI     &kp LALT     &trans     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL     &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
@@ -217,10 +217,10 @@ nice_view_spi: &spi0 {
         raise_win_layer {
             display-name = " Raise";
             bindings = <
-&kp F1    &kp F2     &kp F3     &kp F4 &kp F17                           &kp INS  &kp HOME   &kp PG_UP     &kp F13    &kp F14
-&kp F5   &kp F6     &kp F7     &kp F8     &kp F18                           &kp DEL  &kp END   &kp PG_DN   &kp C_MUTE  &kp UP
-&kp F9     &kp F10     &kp F11     &kp F12     &kp F19     &kp LBKT     &kp RBKT     &kp F15     &kp F16     &kp LEFT     &kp DOWN     &mt RSHFT RIGHT
-                      &trans     &trans     &kp DEL     &kp SPACE     &kp SPACE     &kp BSPC     &kp DEL    &trans
+&kp F1    &kp F2     &kp F3     &kp F4 &kp F15                           &kp N7  &kp N8   &kp N9     &kp F13    &kp F14
+&kp F5   &kp F6     &kp F7     &kp F8     &kp F16                           &kp N4  &kp N5   &kp N6   &kp C_MUTE  &kp UP
+&kp F9     &kp F10     &kp F11     &kp F12     &kp F17     &kp LBKT     &kp RBKT     &kp N1     &kp N2     &mt N3 LEFT     &kp DOWN     &mt RSHFT RIGHT
+                      &trans     &kp LALT     &kp LSHFT     &kp SPACE     &kp SPACE     &kp BSPC     &kp DEL    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
