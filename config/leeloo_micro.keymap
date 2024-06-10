@@ -217,10 +217,10 @@ nice_view_spi: &spi0 {
         raise_win_layer {
             display-name = " Raise";
             bindings = <
-&kp F1    &kp F2     &kp F3     &kp F4 &trans                           &kp INS  &kp HOME   &kp PG_UP     &kp F13    &kp F14
-&kp F5   &kp F6     &kp F7     &kp F8     &trans                           &kp DEL  &kp END   &kp PG_DN   &kp C_MUTE  &kp UP
-&kp F9     &kp F10     &kp F11     &kp F12     &trans     &kp LBKT     &kp RBKT     &kp F15     &kp F16     &kp LEFT     &kp DOWN     &mt RSHFT RIGHT
-                      &trans     &trans     &trans     &trans     &trans     &trans     &kp DEL    &trans
+&kp F1    &kp F2     &kp F3     &kp F4 &kp F17                           &kp INS  &kp HOME   &kp PG_UP     &kp F13    &kp F14
+&kp F5   &kp F6     &kp F7     &kp F8     &kp F18                           &kp DEL  &kp END   &kp PG_DN   &kp C_MUTE  &kp UP
+&kp F9     &kp F10     &kp F11     &kp F12     &kp F19     &kp LBKT     &kp RBKT     &kp F15     &kp F16     &kp LEFT     &kp DOWN     &mt RSHFT RIGHT
+                      &trans     &trans     &kp DEL     &kp SPACE     &kp SPACE     &kp BSPC     &kp DEL    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
