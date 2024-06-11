@@ -243,9 +243,9 @@ nice_view_spi: &spi0 {
         default_osx_layer {
             display-name = " OSX";
             bindings = <
-&kp TAB     &kp Q     &kp W     &kp E     &kp R                           &trans     &trans     &kp VOLUP  &trans     &trans
+&kp TAB     &kp Q     &kp W     &kp E     &kp R                           &trans     &tog 0     &kp VOLUP  &trans     &trans
 &kp LCTRL     &kp A     &kp S     &kp D     &kp F                          &trans     &trans     &kp VOLDN  &trans     &trans
-&kp LSHFT    &kp Z    &kp X     &kp C     &kp V     &kp G     &trans     &trans     &trans  &trans     &trans     &trans
+&kp LSHFT    &kp Z    &kp X     &kp C     &kp V     &kp G     &tog 0     &trans     &trans  &trans     &trans     &trans
                       &kp ESC     &kp LALT     &kp B     &kp SPACE     &trans     &trans     &trans     &tog 1
             >;
 
