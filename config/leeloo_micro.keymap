@@ -208,7 +208,7 @@ nice_view_spi: &spi0 {
 &mt P N1     &mt O N2     &mt I N3     &mt U N4     &mt Y N5                           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
 &kp TAB   &kp L   &kp K   &kp J   &kp H                           &kp BSLH     &kp MINUS     &kp SQT     &kp UP     &kp RSHFT
 &kp LSHFT  &kp DOT     &kp COMMA     &kp M     &kp N     &kp ESC     &kp CAPS     &kp LBKT   &kp RBKT   &kp LEFT     &kp DOWN     &kp RIGHT
-                      &tog 3     &kp GRAVE     &trans     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL     &trans
+                      &tog ADJUST     &kp GRAVE     &trans     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
@@ -222,7 +222,7 @@ nice_view_spi: &spi0 {
 &kp F9     &kp F10     &kp F11     &kp F12     &kp PAUSE_BREAK     
 &trans
      &rgb_ug RGB_TOG     &trans     &trans     &kp LEFT     &kp DOWN     &kp RIGHT
-                      &trans     &kp LGUI     &tog 3     &kp SPACE     &kp SPACE     &trans     &trans    &tog 3
+                      &trans     &kp LGUI     &tog ADJUST     &kp SPACE     &kp SPACE     &trans     &trans    &tog 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
