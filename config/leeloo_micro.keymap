@@ -208,7 +208,7 @@ nice_view_spi: &spi0 {
 &mt P N1     &mt O N2     &mt I N3     &mt U N4     &mt Y N5                           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
 &kp TAB   &kp L   &kp K   &kp J   &kp H                           &kp BSLH     &kp MINUS     &kp SQT     &kp UP     &kp RSHFT
 &kp LSHFT  &kp DOT     &kp COMMA     &kp M     &kp N     &kp ESC     &trans           &kp LBKT   &kp RBKT   &kp LEFT     &kp DOWN     &kp RIGHT
-                      &to 3     &kp GRAVE     &trans     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL     &trans
+                      &tog 4     &kp GRAVE     &trans     &kp SPACE     &kp SPACE     &kp BSPC     &kp EQUAL     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
@@ -222,7 +222,7 @@ nice_view_spi: &spi0 {
 &kp F9     &kp F10     &kp F11     &kp F12     &kp PAUSE_BREAK     
 &trans
      &rgb_ug RGB_TOG     &trans     &trans     &kp LEFT     &kp DOWN     &kp RIGHT
-                      &trans     &kp LGUI     &to 3     &kp SPACE     &kp SPACE     &trans     &trans    &tog 3
+                      &trans     &kp LGUI     &tog 4     &kp SPACE     &kp SPACE     &trans     &trans    &tog 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -243,10 +243,10 @@ nice_view_spi: &spi0 {
         default_osx_layer {
             display-name = " OSX";
             bindings = <
-&tdx_Q     &kp W      &kp E      &kp R      &kp T                            &kp Y      &kp U      &kp I      &kp O      &kp P
-&kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SEMI
-&mt LSFT Z &kp X      &kp C      &kp V      &kp B     &mo QC_N    &kp LCTRL  &kp N      &kp M      &kp COMMA  &kp DOT    &mt RSFT FSLH
-                  &kp LALT   &kp LGUI   &lt 5 RET  &lt 6 MINUS    &lt 6 EQUAL  &lt 5 SPACE  &kp BSPC   &mo QC_F
+&kp TAB     &kp Q     &kp W     &kp E     &kp R                           &trans     &trans     &kp VOLUP  &trans     &trans
+&kp LCTRL     &kp A     &kp S     &kp D     &kp F                          &trans     &trans     &kp VOLDN  &trans     &trans
+&kp LSHFT    &kp Z    &kp X     &kp C     &kp V     &kp G     &trans     &trans     &trans  &trans     &trans     &trans
+                      &kp ESC     &kp LALT     &kp B     &kp SPACE     &trans     &trans     &trans     &tog 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
