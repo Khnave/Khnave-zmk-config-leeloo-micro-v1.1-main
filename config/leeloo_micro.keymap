@@ -255,7 +255,7 @@ nice_view_spi: &spi0 {
         lower_osx_layer {
             display-name = " Lower";
             bindings = <
-&mt P N1     &mt O N2     &mt I N3     &mt U N4     &mt Y N5                           &trans      &trans      &trans     &trans     &trans
+&mt P N1     &mt O N2     &kp W     &mt U N3     &mt Y N4                           &trans      &trans      &trans     &trans     &trans
 &kp LCTRL   &kp L   &kp K   &kp J   &kp H                            &trans       &trans       &trans      &trans      &trans
 &kp LSHFT  &kp DOT      &kp COMMA      &kp M      &kp N      &trans     &trans     &trans &trans &trans      &trans      &trans
                       &kp ESC     &trans     &trans     &mt LCTRL SPACE     &trans     &trans      &trans      &trans
