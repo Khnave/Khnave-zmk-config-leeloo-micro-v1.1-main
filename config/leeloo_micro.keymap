@@ -258,7 +258,7 @@ nice_view_spi: &spi0 {
 &mt P ESC     &mt O N1     &mt I N2     &mt U N3     &mt Y N4                           &trans      &trans      &trans     &trans     &trans
 &kp LCTRL   &kp L   &kp K   &kp J   &kp H                            &trans       &trans       &trans      &trans      &trans
 &kp LSHFT  &kp DOT      &kp COMMA      &kp M      &kp N      &trans     &trans     &trans &trans &trans      &trans      &trans
-                      &kp ESC     &trans     &kp B     &mt LCTRL SPACE     &trans     &trans      &trans      &trans
+                      &kp ESC     &kp T     &kp B     &mt LCTRL SPACE     &trans     &trans      &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
