@@ -246,7 +246,7 @@ nice_view_spi: &spi0 {
 &kp TAB     &kp Q     &kp W     &kp E     &mt T R                           &trans     &trans     &kp VOLUP  &trans     &trans
 &kp LCTRL     &kp A     &kp S     &kp D     &kp F                          &trans     &trans     &kp VOLDN  &trans     &trans
 &kp LSHFT    &kp Z    &kp X     &kp C     &kp V     &kp G     &tog 4     &trans     &trans  &trans     &trans     &trans
-                      &kp ESC     &kp LALT     &lt 5 B     &kp SPACE     &trans     &trans     &trans     &trans
+                      &kp ESC     &kp LALT     &sl 5     &kp SPACE     &trans     &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN>;
@@ -258,7 +258,7 @@ nice_view_spi: &spi0 {
 &mt P N1     &mt O N2     &kp W     &mt U N3     &mt Y N4                           &trans      &trans      &trans     &trans     &trans
 &kp LCTRL   &kp L   &kp K   &kp J   &kp H                            &trans       &trans       &trans      &trans      &trans
 &kp LSHFT  &kp DOT      &kp COMMA      &kp M      &kp N      &trans     &trans     &trans &trans &trans      &trans      &trans
-                      &kp ESC     &trans     &trans     &mt LCTRL SPACE     &trans     &trans      &trans      &trans
+                      &kp ESC     &trans     &kp B     &mt LCTRL SPACE     &trans     &trans      &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
