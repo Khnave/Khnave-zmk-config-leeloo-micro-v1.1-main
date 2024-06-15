@@ -258,7 +258,7 @@ nice_view_spi: &spi0 {
 &mt P ESC     &mt O N1     &mt I N2     &mt U N3     &mt Y N4                           &trans      &trans      &trans     &trans     &trans
 &kp LCTRL   &kp L   &kp K   &kp J   &kp H                            &kp BSLH       &kp MINUS       &kp SQT      &kp UP      &trans
 &kp LSHFT  &kp DOT      &kp COMMA      &kp M      &kp N      &trans     &kp RET     &trans &trans &kp LEFT      &kp DOWN      &kp RIGHT
-                      &kp ESC     &kp T     &kp B     &mt LCTRL SPACE     &kp SPACE     &kp BSPC      &trans      &tog 4
+                      &sl 6     &kp T     &kp B     &kp SPACE     &kp SPACE     &kp BSPC      &trans      &tog 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
@@ -267,10 +267,10 @@ nice_view_spi: &spi0 {
         raise_osx_layer {
             display-name = " Raise";
             bindings = <
-&kp TAB    &none      &none      &kp OSX_SC &none                            &kp PG_UP  &tdx_BOL   &kp UP     &tdx_EOL   &kp BSLH
-&kp CAPS   &none      &none      &none      &none                            &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp GRAVE
-&trans     &none      &none      &none      &none      &trans     &trans     &none      &none      &none      &none      &mt RSFT TILDE
-                      &trans     &trans     &trans     &trans     &trans     &trans     &kp DEL    &trans
+&kp F1    &kp F2      &kp F3      &none &none                            &none  &none   &none     &none   &none
+&kp F4   &kp F5      &kp F6      &none      &none                            &none  &none   &none   &none  &none
+&kp F7     &kp F8      &kp F9      &none      &none      &none     &kp RET     &none      &none      &none      &none      &none
+                      &kp F10     &kp F11     &kp F12     &kp SPACE     &kp SPACE     &none     &none    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
