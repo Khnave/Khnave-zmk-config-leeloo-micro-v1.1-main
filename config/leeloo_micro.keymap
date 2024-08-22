@@ -78,31 +78,31 @@ nice_view_spi: &spi0 {
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
+/*    combos {
+ *       compatible = "zmk,combos";
 
-        combo_win_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            layers = <QW_M>;
-            bindings = <&kp ESC>;
-        };
+ *       combo_win_esc {
+ *           timeout-ms = <50>;
+ *           key-positions = <0 1>;
+ *           layers = <QW_M>;
+ *           bindings = <&kp ESC>;
+ *       };
 
-        combo_osx_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            layers = <QX_M>;
-            bindings = <&kp ESC>;
-        };
+ *       combo_osx_esc {
+ *           timeout-ms = <50>;
+ *           key-positions = <0 1>;
+ *           layers = <QX_M>;
+ *           bindings = <&kp ESC>;
+ *       };
 
-        combo_osx_lock {
-            timeout-ms = <50>;
-            key-positions = <26 18>;
-            layers = <QX_M>;
-            bindings = <&kp LC(LG(Q))>;
-        };
-    };
-
+ *       combo_osx_lock {
+ *           timeout-ms = <50>;
+ *           key-positions = <26 18>;
+ *           layers = <QX_M>;
+ *           bindings = <&kp LC(LG(Q))>;
+ *       };
+ *   };
+*/
     macros {
         enDSH_W: en_Dash {
             compatible = "zmk,behavior-macro";
